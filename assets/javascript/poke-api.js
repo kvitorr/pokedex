@@ -7,6 +7,11 @@ function pokeDetailToPokemon(pokeDetail){
     pokemon.type = types[0];
     pokemon.types = types;
 
+    const stats = pokeDetail.stats.map(statsSlot => statsSlot.base_stat)
+
+    pokemon.heigth = pokeDetail.heigth
+    pokemon.weight = pokeDetail.weight
+
     pokemon.name = pokeDetail.name;
     pokemon.number = pokeDetail.id;
     pokemon.photo = pokeDetail.sprites.other.dream_world.front_default;

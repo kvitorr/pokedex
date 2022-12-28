@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    min-width: 280px;
+    max-width: 600px;
+    height: 100vh;
+    margin: auto;
+}
+
+#main-content {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#seta-voltar {
+    padding: 2.5rem 1.5rem 0.5rem 1.5rem;
+    width: 100%;
+}
+
+#pokemon-label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5 1.55rem;
+    margin-top: 0.75rem;
+    color: white;
+}
+
+#pokemon-name-types {
+    display: flex;
+    flex-direction: column;
+}
+
+#pokemon-name {
+    font-size: 1.625rem;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+#pokemon-types {
+    display: flex;
+    list-style-type: none;
+    gap: 0.2rem;
+}
+
+#pokemon-types li {
+    color: #fff;
+    padding: .25rem .75rem;
+    margin: 0.5rem 0;
+    font-size: 0.625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+#pokemon-img {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+    z-index: 3;
+    width: 50%;
+}
+
+#pokemon-img img {
+    width: 100%;
+    height: 200px;
+}
+
+#section-about-stats {
+    background-color: #fff;
+    width: 100%;
+    z-index: 2;
+    padding: 3rem 0rem;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#section-about-stats .flex p {
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    border-bottom: 2px solid black;
+}
+
+.flex-2 {
+   display: flex;
+   padding: 0 2rem;
+   max-width: 280px;
+   justify-content: space-between;
+   margin: 3rem auto;
+   text-align: center;
+}
+
+.flex-2 .value {
+    font-size: 1.5rem;
+}
+
+.flex-2 .value-name {
+    font-weight: 300;
+}
+
+.divisoria {
+    background-color: black;
+    font-weight: 100;
+    border-right: 1px solid black;
+}
+
+.flex-4 {
+    display: flex;
+    text-align: center;
+}
+
+.flex-4 p {    
+    width: 100%;
+}
+
+.flex-3 {
+    display: flex;
+    min-width: 280px;
+    max-width: 480px;
+    margin: 2rem auto;
+    justify-content: space-evenly;
+    padding: 0.1rem;
+}
+
+.flex-3 .titles {
+    font-weight: 300;
+    font-size: 1.02rem;
+}
+
+.flex-3 .titles p {
+    margin-bottom: 0.3rem;
+}
+
+.flex-3 .titles-value .barra {
+    margin-bottom: 0.85rem;
+}
+
+.flex-3 .titles-value p{
+    font-size: 1.02rem;
+    margin-bottom: 0.3rem;
+}
+
+
+.barra {
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #ccc;
+    margin: 0.4rem;
+}
+
+.barra div {
+    height: 100%;
+    border-radius: 10px;
+}
